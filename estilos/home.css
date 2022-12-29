@@ -90,8 +90,14 @@ a.link{
 div.desc-emp-number{
     background-color: var(--cor-de-fundo);
     color: white;
-    height: 5vh;
+    height: 15vh;
     padding: 20px;
+}
+
+div.desc-emp-number > h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
 
 div.our-adverstisements{
@@ -116,6 +122,7 @@ div.info-b{
     display: inline-block;
     width: 500px;
     height: 15vh;
+    padding-top: 80px;
 }
 
 div.info-b > h2{
@@ -161,11 +168,41 @@ div.blog p:hover{
 }
 
 div.social-media{
-    color: red;
+    height: auto;
+    background-color: var(--cor-de-blocos);
+    color: white;
 }
 
-div.social-media
+div.social-media > h1{
+    text-align: center;
+}
 
-#icon{
-    height: 10%;
+div.info-c{
+    color: #FFFFFF;
+    display: inline-block;
+    width: 500px;
+    height: 10vh;
+}
+
+#info-cds{
+    text-align: left;
+    margin-left: 15px;
+}
+
+div.info-c > p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+div.info-c i{
+    margin-left: 50px;
+}
+
+div.info-c a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+div.info-c a:hover{
+    color: #d8d8d8;
 }
