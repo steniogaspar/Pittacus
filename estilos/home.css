@@ -28,7 +28,7 @@ h1,h2{
 }
 
 menu{
-    background-color: var(--cor-de-blocos);
+    background-color: var(--cor-de-fundo);
     padding: 35px;
     height: 20px;
 }
@@ -65,9 +65,10 @@ div.apr-titulo-desc > h1{
     padding-top: 50px;
     color: var(--cor-de-blocos);
     font-size: 4em;
+    margin-bottom: 100px;
 }
 
-div.apr-titulo-desc > p{
+div.apr-titulo-desc p{
     width: 200px;
     text-align: center;
     background-color: var(--cor-de-destaque);
@@ -79,7 +80,7 @@ div.apr-titulo-desc > p{
     font-weight: bold;
 }
 
-p.link > a{
+a.link{
     background-color: var(--cor-de-letra);
     color: #FFFFFF;
     text-decoration: none;
@@ -87,21 +88,25 @@ p.link > a{
 }
 
 div.desc-emp-number{
-    background-color: #142B59;
+    background-color: var(--cor-de-fundo);
     color: white;
     height: 5vh;
     padding: 20px;
 }
 
 div.our-adverstisements{
-    background-color: var(--cor-de-fundo);
+    background: url('../imagens/social-g6e679378d_1920.jpg');  
+    background-position: top top;
+    background-size: cover;    
+    background-attachment: fixed;
     color: var(--cor-da-letra);
-    height: 30vh;
+    height: 65vh;
 }
 
 div.our-adverstisements > h1{
     text-align: center;
     font-size: 2.2em;
+    color: var(--cor-secundaria);
 }
 
 div.info-b{
@@ -116,26 +121,51 @@ div.info-b{
 div.info-b > h2{
     margin-top: 40px;
     text-align: center;
+    font-size: 3em;
 }
 
 div.blog{
-    background-color: #142B59;
+    background-color: var(--cor-de-fundo);
     color: white;
     height: 30vh;
 }
 
 div.blog > h2{
     text-align: center;
+    margin-bottom: 30px;
 }
 
 div.blog p{
     border: 1px solid #FFFFF2;
     text-decoration: none;
     color: white;
+    width: 200px;
+    text-align: center;
+    height: 20px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    padding: 10px;
 }
 
 div.blog a{
-    border: 1px solid #FFFFF2;
     text-decoration: none;
     color: white;
+    width: 200px;
+}
+
+div.blog p:hover{
+    background-color: #FFFFFF;
+    color: var(--cor-de-blocos);
+    transition-duration: 0.5s;
+}
+
+div.social-media{
+    color: red;
+}
+
+div.social-media
+
+#icon{
+    height: 10%;
 }
