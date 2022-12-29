@@ -64,18 +64,26 @@ div.apr-titulo-desc > h1{
     text-align: center;
     padding-top: 50px;
     color: var(--cor-de-blocos);
-    font-size: 2.6em;
+    font-size: 4em;
 }
 
 div.apr-titulo-desc > p{
-    width: 250px;
+    width: 200px;
     text-align: center;
-    background-color: #FFFFF2;
+    background-color: var(--cor-de-destaque);
     display: block;
     margin-top: 25px;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 10px;
+    border-radius: 20px;
     margin: auto;
+    font-weight: bold;
+}
+
+p.link > a{
+    background-color: var(--cor-de-letra);
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 200px;
 }
 
 div.desc-emp-number{
@@ -83,4 +91,51 @@ div.desc-emp-number{
     color: white;
     height: 5vh;
     padding: 20px;
+}
+
+div.our-adverstisements{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-da-letra);
+    height: 30vh;
+}
+
+div.our-adverstisements > h1{
+    text-align: center;
+    font-size: 2.2em;
+}
+
+div.info-b{
+    font-family: var(--fonte-de-texto);
+    font-weight: normal;
+    color: #FFC800;
+    display: inline-block;
+    width: 500px;
+    height: 15vh;
+}
+
+div.info-b > h2{
+    margin-top: 40px;
+    text-align: center;
+}
+
+div.blog{
+    background-color: #142B59;
+    color: white;
+    height: 30vh;
+}
+
+div.blog > h2{
+    text-align: center;
+}
+
+div.blog p{
+    border: 1px solid #FFFFF2;
+    text-decoration: none;
+    color: white;
+}
+
+div.blog a{
+    border: 1px solid #FFFFF2;
+    text-decoration: none;
+    color: white;
 }
